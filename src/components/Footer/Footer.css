@@ -1,0 +1,24 @@
+@import '../../styles/variables.css';
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--color-secundario);
+  color: var(--color-fondo);
+  font-size: 0.9rem;
+  font-style: italic;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0.3rem 0;
+  line-height: 1.4;
+}
+
+.quote {
+  margin-top: 0.5rem;
+  font-weight: 300;
+  color: var(--color-destacado);
+}

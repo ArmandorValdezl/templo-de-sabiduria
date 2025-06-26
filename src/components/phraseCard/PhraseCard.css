@@ -1,0 +1,140 @@
+@import '../../styles/variables.css';
+.phrase-card-container {
+  /* 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--espaciado-seccion);
+  width: 100%;
+  max-width: var(--ancho-maximo);
+  margin: 0 auto; */
+  
+  width: 100%;
+  max-width: var(--ancho-maximo);
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.phrase-card {
+  /* max-width: var(--ancho-maximo);
+  padding: 3rem;
+  border-radius: 0px;
+  color: var(--color-fondo);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-shadow: 0 4px 12px var(--color-sombra);
+  overflow: hidden; */
+  margin-top: 15dvh;
+  margin-bottom: 5dvh;
+  min-height: 100%;
+  width: 80dvh;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 2rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  color: var(--color-fondo);
+  box-shadow: 0 4px 12px var(--color-sombra);
+  overflow: hidden;
+}
+
+.phrase-overlay {
+  margin-top: 5dvh;
+  margin-bottom: 5dvh;
+  position: relative;
+  z-index: 1;
+  background: rgba(44, 44, 44, 0.6);
+  padding: 2rem;
+  border-radius: var(--radio-borde);
+  backdrop-filter: blur(4px);
+}
+
+blockquote {
+  font-family: var(--fuente-titulo);
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+footer {
+  margin-top: 1rem;
+  font-style: italic;
+  text-align: right;
+  font-size: 1rem;
+}
+
+.tags {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background-color: var(--color-destacado);
+  color: var(--color-texto);
+  padding: 0.3rem 0.7rem;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Animación de aparición/desvanecimiento */
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.6s ease-in;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.new-quote-button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: var(--color-destacado);
+  color: var(--color-texto);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  z-index: 2;
+}
+
+.new-quote-button:hover {
+  background-color: var(--color-destacado-hover);
+  transform: translateY(-2px);
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 18px var(--color-oro-sutil);
+    transform: scale(1.05);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    transform: scale(1);
+  }
+}
+
+.new-quote-button:active {
+  animation: glow 0.4s ease;
+}

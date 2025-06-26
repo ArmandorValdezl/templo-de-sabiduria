@@ -1,0 +1,107 @@
+[
+  {
+    "text": "El guerrero no lucha por lo que odia, sino por lo que ama.",
+    "author": "Oráculo del Guerrero",
+    "tags": ["virtud", "disciplina", "amor", "introspección"]
+  },
+  {
+    "text": "Conócete a ti mismo.",
+    "author": "Sócrates",
+    "tags": ["conocimiento", "sabiduría", "introspección", "moral"]
+  },
+  {
+    "text": "No te desvíes del camino de la virtud.",
+    "author": "Pitágoras",
+    "tags": ["virtud", "armonía", "ética", "moral"]
+  },
+  {
+    "text": "No se puede desatar un nudo sin saber cómo está hecho.",
+    "author": "Platón",
+    "tags": ["sabiduría", "símbolo", "conocimiento", "análisis"]
+  },
+  {
+    "text": "La ley debe ser como la muerte, que no exceptúa a nadie.",
+    "author": "Solón",
+    "tags": ["justicia", "ley", "equilibrio", "virtud"]
+  },
+  {
+    "text": "Un Estado bien ordenado es aquel en el que la juventud teme a la ley tanto como a sus padres.",
+    "author": "Licurgo",
+    "tags": ["ley", "formación moral", "orden", "disciplina"]
+  },
+  {
+    "text": "El sabio no dice todo lo que piensa, pero siempre piensa todo lo que dice.",
+    "author": "Aristóteles",
+    "tags": ["sabiduría", "moderación", "conocimiento", "ética"]
+  },
+  {
+    "text": "La felicidad es el significado y el propósito de la vida, el objetivo y el fin de la existencia humana.",
+    "author": "Aristóteles",
+    "tags": ["felicidad", "sabiduría", "ética", "propósito"]
+  },
+  {
+    "text": "El hombre es un animal político.",
+    "author": "Aristóteles",
+    "tags": ["política", "sociedad", "ética", "humanismo"]
+  },
+  {
+    "text": "La justicia consiste en dar a cada uno lo que le corresponde.",
+    "author": "Platón",
+    "tags": ["justicia", "equidad", "virtud", "ética"]
+  },
+  {
+    "text": "La verdadera riqueza no consiste en tener grandes posesiones, sino en tener pocas necesidades.",
+    "author": "Epicteto",
+    "tags": ["sabiduría", "virtud", "ética", "moderación"]
+  },
+  {
+    "text": "La vida sin reflexión no merece ser vivida.",
+    "author": "Sócrates",
+    "tags": ["introspección", "sabiduría", "ética", "vida"]
+  },
+  {
+    "text": "El conocimiento de uno mismo es el principio de toda sabiduría.",
+    "author": "Aristóteles",
+    "tags": ["conocimiento", "sabiduría", "introspección", "ética"]
+  },
+  {
+    "text": "La virtud es el medio entre dos extremos viciosos.",
+    "author": "Aristóteles",
+    "tags": ["virtud", "moderación", "ética", "moral"]
+  },
+  {
+    "text": "La paciencia es amarga, pero su fruto es dulce.",
+    "author": "Jean-Jacques Rousseau",
+    "tags": ["virtud", "introspección", "ética", "sabiduría"]
+  },
+  {
+    "text": "La justicia es la virtud más grande.",
+    "author": "Platón",
+    "tags": ["justicia", "virtud", "ética", "moral"]
+  },
+  {
+    "text": "El conocimiento es el principio de toda virtud.",
+    "author": "Aristóteles",
+    "tags": ["conocimiento", "sabiduría", "virtud", "ética"]
+  },
+  {
+    "text": "La moderación es la clave de la felicidad.",
+    "author": "Epicuro",
+    "tags": ["moderación", "felicidad", "sabiduría", "ética"]
+  },
+  {
+    "text": "La amistad es un alma que habita en dos cuerpos.",
+    "author": "Aristóteles",
+    "tags": ["humanismo", "amistad", "virtud", "ética"]
+  },
+  {
+    "text": "El hombre es la medida de todas las cosas.",
+    "author": "Protágoras",
+    "tags": ["humanismo", "conocimiento", "ética", "relativismo"]
+  },
+  {
+    "text": "La educación es el mejor provisionamiento para la vejez.",
+    "author": "Cicerón",
+    "tags": ["educación", "sabiduría", "virtud", "ética"]
+  }
+]

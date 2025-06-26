@@ -1,0 +1,21 @@
+:root {
+  /* Paleta de colores */
+  --color-fondo: #F5F1E6;
+  --color-texto: #2C2C2C;
+  --color-destacado: #C9A368;
+  --color-destacado-hover: #b88e52;
+  --color-secundario: #3A546D;
+  --color-oro-sutil: #C2AC83;
+  --color-sombra: rgba(0, 0, 0, 0.15);
+
+  /* Tipografías */
+  --fuente-titulo: 'Playfair Display', serif;
+  --fuente-base: 'Inter', sans-serif;
+
+  /* Espaciado */
+  --espaciado-seccion: 2rem;
+  --radio-borde: 8px;
+
+  /* Tamaños */
+  --ancho-maximo: 800px;
+}

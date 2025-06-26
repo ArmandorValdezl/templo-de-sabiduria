@@ -1,0 +1,65 @@
+@import '../../styles/variables.css';
+
+.share-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 2;
+}
+
+.share-label {
+  font-size: 0.8rem;
+  color: var(--color-fondo);
+  font-style: italic;
+  margin: 0;
+}
+
+.icon-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+}
+
+.icon-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+.icon-btn svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+/* Colores por red social */
+.icon-btn.whatsapp {
+  background-color: #25d366;
+}
+
+.icon-btn.twitter {
+  background-color: #000000;
+}
+
+.icon-btn.facebook {
+  background-color: #3b5998;
+}
+
+.icon-btn.copy {
+  background-color: var(--color-destacado);
+}

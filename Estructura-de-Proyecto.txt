@@ -1,0 +1,27 @@
+raices-del-verbo/
+├── public/
+│   └── favicon.svg             # Ícono del proyecto
+├── src/
+│   ├── assets/                 # Logos, fondos y texturas
+│   │   └── logo.svg
+│   ├── components/             # Componentes reutilizables
+│   │   ├── PhraseCard.jsx      # Tarjeta con la frase
+│   │   ├── Footer.jsx
+│   │   └── Header.jsx
+│   ├── data/                   # Frases por autor o tema
+│   │   └── quotes.js
+│   ├── pages/                  # Vistas del sitio
+│   │   ├── Home.jsx
+│   │   └── About.jsx
+│   ├── styles/                 # Estilos centralizados
+│   │   ├── variables.css       # Paleta y tipografías
+│   │   └── globals.css
+│   ├── utils/                  # Funciones de utilidad
+│   │   └── randomizer.js       # Escoge una frase aleatoria
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── theme.js                # Si usas styled-components o Emotion
+├── .gitignore
+├── index.html
+├── package.json
+└── vite.config.js

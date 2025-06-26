@@ -1,0 +1,58 @@
+@import '../../styles/variables.css';
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: var(--color-texto);
+  color: var(--color-fondo);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+  max-width: var(--ancho-maximo);
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+}
+
+.title {
+  font-family: var(--fuente-titulo);
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  color: var(--color-fondo);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: opacity 0.3s ease;
+}
+
+.nav a:hover {
+  opacity: 0.75;
+}

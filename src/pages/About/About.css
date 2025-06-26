@@ -1,0 +1,77 @@
+@import '../../styles/variables.css';
+
+.about-section {
+  position: relative;
+  min-height: calc(100vh - 80px); /* asumiendo altura del header + padding */
+  padding: 6rem 2rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid var(--color-oro-sutil);
+  padding: 2.5rem;
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  text-align: center;
+  color: var(--color-texto);
+}
+
+.about-content h2 {
+  font-family: var(--fuente-titulo);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-destacado);
+}
+
+.about-content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 1.3rem;
+  text-align: justify;
+}
+
+.symbolic-mark {
+  font-size: 100px;
+  color: var(--color-destacado);
+  margin: 2.5rem 0 1rem;
+  text-align: center;
+}
+
+.contact-info {
+  font-size: 0.95rem;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.contact-info a {
+  color: var(--color-texto);
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.contact-info a:hover {
+  opacity: 0.7;
+}
+
+.back-button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-destacado);
+  color: var(--color-texto);
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: var(--color-destacado-hover);
+}
