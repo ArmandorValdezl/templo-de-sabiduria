@@ -10,8 +10,6 @@ Este sitio nace como un recinto digital donde las palabras se convierten en colu
 
 El objetivo principal es permitir al visitante encontrar frases significativas organizadas por etiquetas, filtrarlas, reflexionar sobre ellas y compartirlas, todo dentro de una experiencia envolvente que une lo estético con lo funcional.
 
-Tecnologías como **React**, **Vite**, **CSS modular** y un enfoque artesanal en la experiencia sonora y visual dan forma a este templo digital. Cada componente, desde el botón de sonido hasta el filtro de etiquetas, fue cincelado con intención.
-
 Tecnologías como **React**, **Vite**, **CSS modular** y un enfoque en el diseño responsivo fueron empleadas como herramientas de tallado fino. La lógica que gobierna la navegación, la persistencia de estados, la ambientación sonora opcional y la interacción visual está cuidadosamente construida con precisión artesanal.
 
 El proceso de desarrollo se dio como una especie de rito iterativo: se diseñaron los componentes pensando tanto en la armonía del código como en la intención simbólica detrás de cada elemento — desde la elección de las fuentes hasta el sutil resplandor del botón de silencio. Cada fase fue una mezcla entre depuración técnica y contemplación creativa.
@@ -26,7 +24,7 @@ Para ejecutar el proyecto en tu entorno local:
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/templo-de-sabiduria.git
+   git clone https://github.com/ArmandorValdezl/templo-de-sabiduria.git
 
 2. Ingresa a la carpeta del proyecto:
 
